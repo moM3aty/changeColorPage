@@ -1,0 +1,117 @@
+body{
+    box-sizing: border-box;
+    font-variant: small-caps;
+    font-family:'Playfair Display', serif;
+    text-align: center;
+    width: 80%;
+    margin:5% auto;
+}
+.container ul {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    width: 40%;
+    margin:auto ;
+    width: fit-content;
+    padding: 0px 15px 0px 15px;
+}
+.container ul li:first-child{
+    width:20px;
+    height: 20px;
+    margin:10px;
+    background-color:rgb(45, 158, 45);
+    border: 1px solid black;
+    cursor: pointer;
+}
+.container ul li:nth-child(2){
+    width:20px;
+    height: 20px;
+    margin:10px;
+    background-color: navy;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.container ul li:nth-child(3){
+    width:20px;
+    height: 20px;
+    margin:10px;
+    background-color: goldenrod;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.container ul li:nth-child(4){
+    width:20px;
+    height: 20px;
+    margin:10px;
+    background-color: darkred;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.my_massage{
+    padding: 10px;
+    background-color:white;
+    color: rgb(45, 158, 45);
+    font-size: 50px; 
+}
+.paragraph{
+    padding: 10px;
+    background-color:rgb(45, 158, 45);
+    color: white;
+    border-radius: 15px;
+
+    font-size: 50px;
+    text-align: center;
+}
+.green .my_massage{
+    padding: 10px;
+    background-color:white;
+    color: rgb(45, 158, 45);
+    font-size: 50px; 
+}
+.green .paragraph{
+    padding: 10px;
+    background-color:rgb(45, 158, 45);
+    color: white;
+    border-radius: 15px;
+    font-size: 50px;
+}
+.navy .my_massage{
+    padding: 10px;
+    background-color:white;
+    color: navy;
+
+    font-size: 50px; 
+}
+.navy .paragraph{
+    padding: 10px;
+    background-color:navy;
+    color: white;
+    border-radius: 15px;
+    font-size: 50px;
+}
+.gold .my_massage{
+    padding: 10px;
+    background-color:white;
+    color: goldenrod;
+    font-size: 50px; 
+}
+.gold .paragraph{
+    padding: 10px;
+    background-color:goldenrod;
+    color: white;
+    border-radius: 15px;
+    font-size: 50px;
+}
+.red .my_massage{
+    padding: 10px;
+    background-color:white;
+    color: darkred;
+    font-size: 50px; 
+}
+.red .paragraph{
+    padding: 10px;
+    background-color:darkred;
+    color: white;
+    border-radius: 15px;
+    font-size: 50px;
+}
